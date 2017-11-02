@@ -1,0 +1,30 @@
+{
+  "name": "hyper-ndjson",
+  "version": "1.0.0",
+  "description": "Handle ndjson streams using queues for concurrent processing",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "async": "^2.5.0",
+    "dev-null": "^0.1.1",
+    "json-stringify-safe": "^5.0.1",
+    "ndjson": "^1.5.0",
+    "rc": "^1.2.1",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "standard": "^4.5.4",
+    "tap": "^0.4.12",
+    "tape": "^2.14.0"
+  },
+  "scripts": {
+    "test": "standard && ./node_modules/.bin/tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanramage/hyper-ndjson.git"
+  },
+  "bugs": {
+    "url": "http://github.com/ryanramage/hyper-ndjson/issues"
+  },
+  "homepage": "http://github.com/ryanramage/hyper-ndjson"
+}
